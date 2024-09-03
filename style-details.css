@@ -1,0 +1,58 @@
+/* Container for flexboxes */
+details-container {
+    display: flex;
+  }
+
+details-media{
+    flex: 3;
+    padding: 10px;
+    height: fit-content;
+    background-color: rgb(40, 40, 40);
+}
+
+details-desc{
+    flex: 1;
+    padding: 20px;
+}
+
+details-media video, img{    
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+details-desc img{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+#fav {
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+  }
+
+  #fav:hover {
+    background-color: #1d7ece;
+  }
+
+.comment{
+    background-color: rgb(40, 40, 40);
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.comment a{
+    margin: 0;
+    padding: 10;
+}
+
+.comment p{
+    margin: 10px;
+}
+
+.managementBtns p{
+    margin: 10 0 10 0;
+}

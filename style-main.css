@@ -1,0 +1,219 @@
+@font-face {
+  font-family: Lato;
+  src: url(fonty/Manrope-Regular.ttf);
+}
+
+@font-face {
+  font-family: LatoBold;
+  src: url(fonty/Manrope-Bold.ttf);
+}
+
+@font-face {
+  font-family: LatoLight;
+  src: url(fonty/Manrope-Light.ttf);
+}
+
+body{
+  color: white;
+  background-color: rgb(31, 31, 31);
+  font-family: Lato;
+}
+
+.header{
+  background-color: rgb(50, 50, 50);
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+  font-family: LatoBold;
+
+}
+
+button{
+  padding: 0.5em 1em;
+  font-size: 16px;
+  font-family: Lato;
+  text-decoration: none;
+  background-color: rgb(40, 40, 40);
+  color: #2196F3;
+  display: inline-block;
+  margin: 0;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(50, 50, 50);
+ }
+
+#submit {
+    padding: 0.5em 1em;
+    font-size: 16px;
+    font-family: Lato;
+    text-decoration: none;
+    background-color: rgb(40, 40, 40);
+    color: #2196F3;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+ }
+
+ #submit:hover {
+  background-color: rgb(50, 50, 50);
+ }
+
+.grid-container {
+    display: grid;
+    row-gap: 20px;
+    column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, 500px);
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .grid-item p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
+  }
+
+  .grid-item img, .grid-item video{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    border: 0px solid rgba(0, 111, 145, 0.8);
+    z-index:-1;
+  }
+
+.gradient {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(255,255,255,0) 100%); 
+    z-index:0;
+
+    /*text*/
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+  }
+
+  .gradient p:hover {
+    color: #2196F3;
+  }
+
+  .profile-big{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #0e3353;
+  }
+
+  .profile-big h1, .profile-big p{
+    margin: 10px;
+  }
+
+  .profile-big img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+  }
+
+  #profile-small{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #profile-small h1, #profile-small h2, #profile-small p{
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  #profile-small img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+  }
+
+  #profile-small a{
+    padding: 0;
+    text-decoration: solid;
+    background-color: rgba(40, 40, 40, 0);
+    color: white;
+    display: inline-block;
+  }
+
+  .profile-mini img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .profile-mini p {
+    font-size: 25;
+    font-family: LatoLight;
+  }
+
+  .profile-mini p:hover {
+    color: none;
+  }
+
+  form{
+    margin: 0;
+  }
+
+  .content{
+    margin: 10px;
+  }
+
+ .content a{
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: rgb(40, 40, 40);
+    color: #2196F3;
+    display: inline-block;
+  }
+
+  .content a:hover {
+    background-color: rgb(50, 50, 50);
+   }
+
+   #data{
+    margin-top: 0;
+    color: grey;
+   }
+  
+#edit{
+  background-color: green;
+  color: white;
+}
+
+#edit:hover{
+  background-color: rgb(0, 108, 0);
+}
+
+#delete{
+  background-color: rgb(180, 0, 0);
+  color: white;
+}
+
+#delete:hover{
+  background-color: rgb(160, 0, 0);
+}

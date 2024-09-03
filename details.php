@@ -83,7 +83,7 @@ require("navbar.php");
 
             <label for="komentarz">Treść komentarza:</label>
             <br>
-            <textarea id="komentarz" name="komentarz" rows="4" cols="50" ></textarea>
+            <textarea id="komentarz" class="commentInput" name="komentarz" rows="4" cols="50" ></textarea>
             <br>
             
             <input type="submit" id="submit" value="Dodaj komentarz">

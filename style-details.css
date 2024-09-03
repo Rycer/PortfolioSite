@@ -53,6 +53,23 @@ details-desc img{
     margin: 10px;
 }
 
+.commentInput{
+    font-size: 15px;
+    border: 1px solid #4b4b4b;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    height: 100px;
+    width: 500px;
+}
+
+.commentInput:focus {
+    border-color:#2196F3;
+    outline: none;
+}
+
 .managementBtns p{
     margin: 10 0 10 0;
 }
